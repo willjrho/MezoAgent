@@ -5,7 +5,7 @@ To use:
  Prompt agent with 
 
 "transfer {x} musd to {address}"
-"send {x} btc to {address} 
+"send {x} btc to {address}"
 
 Notes: 
 
