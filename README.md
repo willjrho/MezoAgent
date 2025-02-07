@@ -1,6 +1,6 @@
 To use: 
 
--import correct packages, create env file with and add secrets, run agent file 
+-import correct packages, create env file and add secrets, run agent file 
 
  Prompt agent with 
 
