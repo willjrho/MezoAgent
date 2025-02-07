@@ -2,7 +2,7 @@ To use:
 
 -import correct packages, create env file and add secrets, run agent file 
 
- Prompt agent with 
+ Prompt agent with:
 
 "transfer {x} musd to {address}"
 "send {x} btc to {address}"
