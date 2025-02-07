@@ -15,5 +15,6 @@ Notes:
 Next Steps:
 
 -make current tools more robust ie expand user intent net 
+-look at mezo tx error handling for agent. ie what happens if agent wallet is out of gas?
 -create plugins for mezo native dapps like musd, pampland, dumpyswap
 -build os mezo agent kit package for langchain  
