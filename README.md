@@ -1,20 +1,35 @@
-To use: 
+### Mezo Agent is a LangChain-powered Web3 AI agent that facilitates plain english BTC and mUSD transactions on the Mezo Matsnet Testnet. 
 
--import correct packages, create env file and add secrets, run agent file 
+⚡ **Installation**
 
- Prompt agent with:
+1️⃣ Clone the Repository
 
-"transfer {x} musd to {address}"
-"send {x} btc to {address}"
+2️⃣ Install Dependencies
 
-Notes: 
+3️⃣ Set Up Environment Variables
+Create a .env file in the root directory and add:
 
--the parsing is currently very strict on tooling prompt calls 
--the agent will loop if your prompt is rejected but it should eventualy find the final answer and exit the langgraph chain
+OPENAI_API_KEY=your_openai_api_key
 
-Next Steps:
+PRIVATE_KEY=your_mezo_private_key
 
--make current tools more robust ie expand user intent net 
--look at mezo tx error handling for agent. ie what happens if agent wallet is out of gas?
--create plugins for mezo native dapps like musd, pampland, dumpyswap
--build os mezo agent kit package for langchain  
+🚀 **Usage**
+
+   Run the Agent
+
+   After running, you can interact with the agent by entering commands like:
+
+
+💡 **Example Commands**
+
+I can't sign rn because im in a rush can you send .01 BTC to 0xABC123 → Sends 0.01 BTC to a recipient.
+
+I need to pay my rent! Urgent. Send 100 mUSD to 0xABC123 → Transfers 100 mUSD to a wallet.
+
+📝 **Notes:**
+
+Mezo Agent uses LangChain’s StructuredOutputParser Tool to extract structured data from natural language prompt requests based on a web3 transaction schema.
+
+Currently working on more robust web3 transaction error handling for Mezo Agent
+
+This code has not been rigourously evaluated and is intended to be experimental  
