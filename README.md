@@ -30,7 +30,7 @@ im gonna get rekt if u dont swap 10 musd for btc rn → Swaps 10 mUSD for exact 
 
 📝 **Notes:**
 
-Mezo Agent uses LangChain’s StructuredOutputParser Tool to extract structured data from natural language prompt requests based on a web3 transaction schema.
+Mezo Agent uses LangChain’s StructuredOutputParser Tool to extract structured data from natural language prompt requests based on a multiple web3 transaction schemas. The agent will decide which scehma to use based on user intent. 
 
 Currently working on more robust web3 transaction error handling for Mezo Agent
 
