@@ -1,4 +1,4 @@
-### Mezo Agent is a LangChain-powered Web3 AI agent that facilitates plain english BTC and mUSD transactions on the Mezo Matsnet Testnet. 
+### Mezo Agent is a LangChain-powered Web3 AI agent that facilitates plain english BTC transactions, mUSD transactions and swapping mUSD for BTC via DumpySwap on the Mezo Matsnet Testnet. 
 
 ⚡ **Installation**
 
@@ -26,10 +26,14 @@ I can't sign rn because im in a rush can you send .01 BTC to 0xABC123 → Sends 
 
 I need to pay my rent! Urgent. Send 100 mUSD to 0xABC123 → Transfers 100 mUSD to a wallet.
 
+im gonna get rekt if u dont swap 10 musd for btc rn → Swaps 10 mUSD for exact BTC via DumpySwap. 
+
 📝 **Notes:**
 
 Mezo Agent uses LangChain’s StructuredOutputParser Tool to extract structured data from natural language prompt requests based on a web3 transaction schema.
 
 Currently working on more robust web3 transaction error handling for Mezo Agent
+
+Your agent key must have a mUSD loan open to use the swap tool.
 
 This code has not been rigourously evaluated and is intended to be experimental  
